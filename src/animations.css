@@ -1,0 +1,94 @@
+/* Base animation keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px) rotate(-5deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(5deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(-5deg);
+  }
+}
+
+/* Animation classes */
+.animate-in {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Dark mode transitions */
+.dark-mode {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Custom cursor styles */
+.custom-cursor {
+  mix-blend-mode: difference;
+  z-index: 9999;
+}
+
+.custom-cursor-dot {
+  mix-blend-mode: difference;
+  z-index: 9999;
+}
+
+/* Hover effects */
+.hover-target {
+  position: relative;
+  cursor: none;
+}
