@@ -137,7 +137,7 @@ const About = ({ isDarkMode }: AboutProps) => {
               <div className={`relative overflow-hidden rounded-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'} shadow-xl p-6`}>
                 <div className="aspect-w-4 aspect-h-5 overflow-hidden rounded-lg mb-6">
                   <img
-                    src="/samhell.png"
+                    src="/shubhamImg.jpg"
                     alt="Portrait"
                     className="object-cover w-full h-full rounded-lg transition-transform duration-700 hover:scale-105"
                   />
